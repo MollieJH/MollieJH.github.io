@@ -22,7 +22,7 @@ ul{
 body > header{
     background-color: burlywood;
     display: flex;
-    height: 13vh;
+    height: 15vh;
     align-items: center;
     justify-content: space-around;
 }
@@ -31,9 +31,9 @@ body > header{
     background-color: burlywood;
     font-family: "Fredoka One", 'Courier New', Courier, monospace;
     /* box-shadow: 2px 2px 5px 5px gray; */
-    width: 16%;
+    width: 20%;
     color: rgb(151, 114, 68);
-    padding: 6px;
+    padding: 3px;
     text-shadow: 
     1px 1px 0px white,
     -1px 1px 0px white,
@@ -59,7 +59,7 @@ body > header > nav > ul {
     -1px 1px 0px white,
     1px -1px 0px white,
     -1px -1px 0px white; */
-    padding: 13px;
+    padding: 10px;
     border: 1px solid rgb(143, 109, 56);
     border-radius: 10%;
     margin: 13px;
@@ -85,8 +85,14 @@ form {
 h2 {
     text-align: center;
 }
+header > img {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    height: 20%;
+}
 
-img {
+footer > img {
     border-radius: 50%;
 }
 
